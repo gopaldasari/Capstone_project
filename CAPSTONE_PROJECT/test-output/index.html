@@ -1,0 +1,941 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-West_Florida_AHEC_Test_Suite" class="navigator-link">
+              <span class="suite-name border-failed">West Florida AHEC Test Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-West_Florida_AHEC_Test_Suite" class="navigator-link ">
+                    <span>E:\wipro training\CAPSTONE_PROJECT\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-West_Florida_AHEC_Test_Suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-West_Florida_AHEC_Test_Suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-West_Florida_AHEC_Test_Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-West_Florida_AHEC_Test_Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-West_Florida_AHEC_Test_Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-West_Florida_AHEC_Test_Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">28 methods, 2 failed,   26 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-West_Florida_AHEC_Test_Suite" class="hide-methods failed suite-West_Florida_AHEC_Test_Suite"> (hide)</a> <!-- hide-methods failed suite-West_Florida_AHEC_Test_Suite -->
+                      <a href="#" panel-name="suite-West_Florida_AHEC_Test_Suite" class="show-methods failed suite-West_Florida_AHEC_Test_Suite"> (show)</a> <!-- show-methods failed suite-West_Florida_AHEC_Test_Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-West_Florida_AHEC_Test_Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-West_Florida_AHEC_Test_Suite" title="com.testing.Register_and_Login_Verifications" class="method navigator-link" hash-for-method="Login_and_Reset_section">Login_and_Reset_section</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-West_Florida_AHEC_Test_Suite" title="com.testing.Sections_Interactions_Verifications" class="method navigator-link" hash-for-method="Programs_section">Programs_section</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-West_Florida_AHEC_Test_Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-West_Florida_AHEC_Test_Suite" class="hide-methods passed suite-West_Florida_AHEC_Test_Suite"> (hide)</a> <!-- hide-methods passed suite-West_Florida_AHEC_Test_Suite -->
+                      <a href="#" panel-name="suite-West_Florida_AHEC_Test_Suite" class="show-methods passed suite-West_Florida_AHEC_Test_Suite"> (show)</a> <!-- show-methods passed suite-West_Florida_AHEC_Test_Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-West_Florida_AHEC_Test_Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-West_Florida_AHEC_Test_Suite" title="com.testing.Sections_Interactions_Verifications" class="method navigator-link" hash-for-method="About_section">About_section</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-West_Florida_AHEC_Test_Suite" title="com.testing.Sections_Interactions_Verifications" class="method navigator-link" hash-for-method="CPR_section">CPR_section</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-West_Florida_AHEC_Test_Suite" title="com.testing.Contact_Us_Page_Verifications" class="method navigator-link" hash-for-method="Contact_Us_Page">Contact_Us_Page</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-West_Florida_AHEC_Test_Suite" title="com.testing.Sections_Interactions_Verifications" class="method navigator-link" hash-for-method="Contact_section">Contact_section</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-West_Florida_AHEC_Test_Suite" title="com.testing.HomePage_Contents_Verifications" class="method navigator-link" hash-for-method="HomePage_Searchbox_Verification">HomePage_Searchbox_Verification</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-West_Florida_AHEC_Test_Suite" title="com.testing.HomePage_Contents_Verifications" class="method navigator-link" hash-for-method="HomePage_Sections_Verification">HomePage_Sections_Verification</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-West_Florida_AHEC_Test_Suite" title="com.testing.HomePage_Contents_Verifications" class="method navigator-link" hash-for-method="HomePage_Title_Verification">HomePage_Title_Verification</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-West_Florida_AHEC_Test_Suite" title="com.testing.HomePage_Contents_Verifications" class="method navigator-link" hash-for-method="HomePage_Url_Verification">HomePage_Url_Verification</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-West_Florida_AHEC_Test_Suite" title="com.testing.HomePage_Contents_Verifications" class="method navigator-link" hash-for-method="HomePage_Website_Logo_Verification">HomePage_Website_Logo_Verification</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-West_Florida_AHEC_Test_Suite" title="com.testing.HomePage_Contents_Verifications" class="method navigator-link" hash-for-method="HomePage_about_company_section_Verification">HomePage_about_company_section_Verification</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-West_Florida_AHEC_Test_Suite" title="com.testing.HomePage_Contents_Verifications" class="method navigator-link" hash-for-method="HomePage_contact_section_Verification">HomePage_contact_section_Verification</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-West_Florida_AHEC_Test_Suite" title="com.testing.HomePage_Contents_Verifications" class="method navigator-link" hash-for-method="HomePage_cookie_section_Verification">HomePage_cookie_section_Verification</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-West_Florida_AHEC_Test_Suite" title="com.testing.HomePage_Contents_Verifications" class="method navigator-link" hash-for-method="HomePage_footer_section_Verification">HomePage_footer_section_Verification</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-West_Florida_AHEC_Test_Suite" title="com.testing.HomePage_Contents_Verifications" class="method navigator-link" hash-for-method="HomePage_icons_section_Verification">HomePage_icons_section_Verification</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-West_Florida_AHEC_Test_Suite" title="com.testing.HomePage_Contents_Verifications" class="method navigator-link" hash-for-method="HomePage_info_section_Verification">HomePage_info_section_Verification</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-West_Florida_AHEC_Test_Suite" title="com.testing.HomePage_Contents_Verifications" class="method navigator-link" hash-for-method="HomePage_keypartner_section_Verification">HomePage_keypartner_section_Verification</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-West_Florida_AHEC_Test_Suite" title="com.testing.HomePage_Contents_Verifications" class="method navigator-link" hash-for-method="HomePage_slide_image_section_Verification">HomePage_slide_image_section_Verification</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-West_Florida_AHEC_Test_Suite" title="com.testing.Register_and_Login_Verifications" class="method navigator-link" hash-for-method="Login_acc_section">Login_acc_section</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-West_Florida_AHEC_Test_Suite" title="com.testing.Sections_Interactions_Verifications" class="method navigator-link" hash-for-method="Myacc_section">Myacc_section</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-West_Florida_AHEC_Test_Suite" title="com.testing.Sections_Interactions_Verifications" class="method navigator-link" hash-for-method="News_section">News_section</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-West_Florida_AHEC_Test_Suite" title="com.testing.Register_and_Login_Verifications" class="method navigator-link" hash-for-method="Register_acc_section">Register_acc_section</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-West_Florida_AHEC_Test_Suite" title="com.testing.Register_and_Login_Verifications" class="method navigator-link" hash-for-method="Reset_password_section">Reset_password_section</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-West_Florida_AHEC_Test_Suite" title="com.testing.Searchbox_Interactions_Verifications" class="method navigator-link" hash-for-method="Searchbox_Displayed">Searchbox_Displayed</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-West_Florida_AHEC_Test_Suite" title="com.testing.Searchbox_Interactions_Verifications" class="method navigator-link" hash-for-method="Searchbox_button_Verification">Searchbox_button_Verification</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-West_Florida_AHEC_Test_Suite" title="com.testing.Searchbox_Interactions_Verifications" class="method navigator-link" hash-for-method="Searchbox_input_text_Verification">Searchbox_input_text_Verification</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-West_Florida_AHEC_Test_Suite" title="com.testing.Sections_Interactions_Verifications" class="method navigator-link" hash-for-method="Services_section">Services_section</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-West_Florida_AHEC_Test_Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-West_Florida_AHEC_Test_Suite" class="panel West_Florida_AHEC_Test_Suite">
+          <div class="suite-West_Florida_AHEC_Test_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.testing.Register_and_Login_Verifications</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Login_and_Reset_section">
+                  </a> <!-- Login_and_Reset_section -->
+                  <span class="method-name">Login_and_Reset_section</span>
+                  <div class="stack-trace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;button type=&quot;submit&quot; class=&quot;woocommerce-Button button&quot; name=&quot;save_account_details&quot; value=&quot;...&quot;&gt;Save changes&lt;/button&gt; is not clickable at point (1254, 632). Other element would receive the click: &lt;a aria-label=&quot;dismiss cookie message&quot; role=&quot;button&quot; tabindex=&quot;0&quot; class=&quot;cc-btn cc-dismiss&quot;&gt;...&lt;/a&gt;
+  (Session info: chrome=132.0.6834.84)
+Build info: version: &apos;4.28.0&apos;, revision: &apos;ac342546e9&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;23.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [2e282786860def5e7c3ef43652fc72a0, clickElement {id=f.963DBD90A395CB09123FBA8D2477BFEC.d.0B940D6640C4C7945CEC77E711A0523C.e.616}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 132.0.6834.84, chrome: {chromedriverVersion: 132.0.6834.110 (df453a35f09..., userDataDir: C:\Users\HP\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:2904}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:2904/devtool..., se:cdpVersion: 132.0.6834.84, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (2e282786860def5e7c3ef43652fc72a0)] -&gt; xpath: //*[@id=&quot;post-381&quot;]/div/div/div[2]/form/p[5]/button]
+Session ID: 2e282786860def5e7c3ef43652fc72a0
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at com.testing.Register_and_Login_Verifications.Login_and_Reset_section(Register_and_Login_Verifications.java:152)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-West_Florida_AHEC_Test_Suite-class-failed -->
+          <div class="suite-West_Florida_AHEC_Test_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.testing.Sections_Interactions_Verifications</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Programs_section">
+                  </a> <!-- Programs_section -->
+                  <span class="method-name">Programs_section</span>
+                  <div class="stack-trace">org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found
+  (Session info: chrome=132.0.6834.84)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: &apos;4.28.0&apos;, revision: &apos;ac342546e9&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;23.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5e158792d628bcc501a80f3758394eba, getElementText {id=f.C77DF1437C7AE9D064D19EAF6B72519E.d.F57349C596103EC9BD0C59C80A350BE9.e.176}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 132.0.6834.84, chrome: {chromedriverVersion: 132.0.6834.110 (df453a35f09..., userDataDir: C:\Users\HP\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:2987}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:2987/devtool..., se:cdpVersion: 132.0.6834.84, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (5e158792d628bcc501a80f3758394eba)] -&gt; xpath: //*[@id=&apos;menu-item-264&apos;]/ul/li/a]
+Session ID: 5e158792d628bcc501a80f3758394eba
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.getText(RemoteWebElement.java:191)
+	at com.testing.Sections_Interactions_Verifications.Programs_section(Sections_Interactions_Verifications.java:89)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-West_Florida_AHEC_Test_Suite-class-failed -->
+          <div class="suite-West_Florida_AHEC_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.testing.Register_and_Login_Verifications</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Login_acc_section">
+                  </a> <!-- Login_acc_section -->
+                  <span class="method-name">Login_acc_section</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Register_acc_section">
+                  </a> <!-- Register_acc_section -->
+                  <span class="method-name">Register_acc_section</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Reset_password_section">
+                  </a> <!-- Reset_password_section -->
+                  <span class="method-name">Reset_password_section</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-West_Florida_AHEC_Test_Suite-class-passed -->
+          <div class="suite-West_Florida_AHEC_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.testing.Contact_Us_Page_Verifications</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Contact_Us_Page">
+                  </a> <!-- Contact_Us_Page -->
+                  <span class="method-name">Contact_Us_Page</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-West_Florida_AHEC_Test_Suite-class-passed -->
+          <div class="suite-West_Florida_AHEC_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.testing.Searchbox_Interactions_Verifications</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Searchbox_Displayed">
+                  </a> <!-- Searchbox_Displayed -->
+                  <span class="method-name">Searchbox_Displayed</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Searchbox_button_Verification">
+                  </a> <!-- Searchbox_button_Verification -->
+                  <span class="method-name">Searchbox_button_Verification</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Searchbox_input_text_Verification">
+                  </a> <!-- Searchbox_input_text_Verification -->
+                  <span class="method-name">Searchbox_input_text_Verification</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-West_Florida_AHEC_Test_Suite-class-passed -->
+          <div class="suite-West_Florida_AHEC_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.testing.HomePage_Contents_Verifications</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="HomePage_Searchbox_Verification">
+                  </a> <!-- HomePage_Searchbox_Verification -->
+                  <span class="method-name">HomePage_Searchbox_Verification</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="HomePage_Sections_Verification">
+                  </a> <!-- HomePage_Sections_Verification -->
+                  <span class="method-name">HomePage_Sections_Verification</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="HomePage_Title_Verification">
+                  </a> <!-- HomePage_Title_Verification -->
+                  <span class="method-name">HomePage_Title_Verification</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="HomePage_Url_Verification">
+                  </a> <!-- HomePage_Url_Verification -->
+                  <span class="method-name">HomePage_Url_Verification</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="HomePage_Website_Logo_Verification">
+                  </a> <!-- HomePage_Website_Logo_Verification -->
+                  <span class="method-name">HomePage_Website_Logo_Verification</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="HomePage_about_company_section_Verification">
+                  </a> <!-- HomePage_about_company_section_Verification -->
+                  <span class="method-name">HomePage_about_company_section_Verification</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="HomePage_contact_section_Verification">
+                  </a> <!-- HomePage_contact_section_Verification -->
+                  <span class="method-name">HomePage_contact_section_Verification</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="HomePage_cookie_section_Verification">
+                  </a> <!-- HomePage_cookie_section_Verification -->
+                  <span class="method-name">HomePage_cookie_section_Verification</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="HomePage_footer_section_Verification">
+                  </a> <!-- HomePage_footer_section_Verification -->
+                  <span class="method-name">HomePage_footer_section_Verification</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="HomePage_icons_section_Verification">
+                  </a> <!-- HomePage_icons_section_Verification -->
+                  <span class="method-name">HomePage_icons_section_Verification</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="HomePage_info_section_Verification">
+                  </a> <!-- HomePage_info_section_Verification -->
+                  <span class="method-name">HomePage_info_section_Verification</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="HomePage_keypartner_section_Verification">
+                  </a> <!-- HomePage_keypartner_section_Verification -->
+                  <span class="method-name">HomePage_keypartner_section_Verification</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="HomePage_slide_image_section_Verification">
+                  </a> <!-- HomePage_slide_image_section_Verification -->
+                  <span class="method-name">HomePage_slide_image_section_Verification</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-West_Florida_AHEC_Test_Suite-class-passed -->
+          <div class="suite-West_Florida_AHEC_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.testing.Sections_Interactions_Verifications</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="About_section">
+                  </a> <!-- About_section -->
+                  <span class="method-name">About_section</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="CPR_section">
+                  </a> <!-- CPR_section -->
+                  <span class="method-name">CPR_section</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Contact_section">
+                  </a> <!-- Contact_section -->
+                  <span class="method-name">Contact_section</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Myacc_section">
+                  </a> <!-- Myacc_section -->
+                  <span class="method-name">Myacc_section</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="News_section">
+                  </a> <!-- News_section -->
+                  <span class="method-name">News_section</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Services_section">
+                  </a> <!-- Services_section -->
+                  <span class="method-name">Services_section</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-West_Florida_AHEC_Test_Suite-class-passed -->
+        </div> <!-- panel West_Florida_AHEC_Test_Suite -->
+        <div panel-name="test-xml-West_Florida_AHEC_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">E:\wipro training\CAPSTONE_PROJECT\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;West Florida AHEC Test Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;ChromeTest&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;packages&gt;
+      &lt;package name=&quot;com.testing&quot;/&gt;
+    &lt;/packages&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.testing.Contact_Us_Page_Verifications&quot;/&gt;
+      &lt;class name=&quot;com.testing.HomePage_Contents_Verifications&quot;/&gt;
+      &lt;class name=&quot;com.testing.Register_and_Login_Verifications&quot;/&gt;
+      &lt;class name=&quot;com.testing.Searchbox_Interactions_Verifications&quot;/&gt;
+      &lt;class name=&quot;com.testing.Sections_Interactions_Verifications&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- ChromeTest --&gt;
+&lt;/suite&gt; &lt;!-- West Florida AHEC Test Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-West_Florida_AHEC_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for West Florida AHEC Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">ChromeTest (5 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-West_Florida_AHEC_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for West Florida AHEC Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-West_Florida_AHEC_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for West Florida AHEC Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_West_Florida_AHEC_Test_Suite');
+function tableData_West_Florida_AHEC_Test_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(28);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'Register_acc_section')
+data.setCell(0, 2, 'com.testing.Register_and_Login_Verifications')
+data.setCell(0, 3, 13705);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'Login_acc_section')
+data.setCell(1, 2, 'com.testing.Register_and_Login_Verifications')
+data.setCell(1, 3, 12412);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'Login_and_Reset_section')
+data.setCell(2, 2, 'com.testing.Register_and_Login_Verifications')
+data.setCell(2, 3, 11743);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'Reset_password_section')
+data.setCell(3, 2, 'com.testing.Register_and_Login_Verifications')
+data.setCell(3, 3, 10441);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'About_section')
+data.setCell(4, 2, 'com.testing.Sections_Interactions_Verifications')
+data.setCell(4, 3, 8566);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'CPR_section')
+data.setCell(5, 2, 'com.testing.Sections_Interactions_Verifications')
+data.setCell(5, 3, 7214);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'Contact_Us_Page')
+data.setCell(6, 2, 'com.testing.Contact_Us_Page_Verifications')
+data.setCell(6, 3, 5897);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'Programs_section')
+data.setCell(7, 2, 'com.testing.Sections_Interactions_Verifications')
+data.setCell(7, 3, 5118);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'Myacc_section')
+data.setCell(8, 2, 'com.testing.Sections_Interactions_Verifications')
+data.setCell(8, 3, 3510);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'Searchbox_button_Verification')
+data.setCell(9, 2, 'com.testing.Searchbox_Interactions_Verifications')
+data.setCell(9, 3, 3185);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'Services_section')
+data.setCell(10, 2, 'com.testing.Sections_Interactions_Verifications')
+data.setCell(10, 3, 2852);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'News_section')
+data.setCell(11, 2, 'com.testing.Sections_Interactions_Verifications')
+data.setCell(11, 3, 1836);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'Contact_section')
+data.setCell(12, 2, 'com.testing.Sections_Interactions_Verifications')
+data.setCell(12, 3, 1501);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'Searchbox_input_text_Verification')
+data.setCell(13, 2, 'com.testing.Searchbox_Interactions_Verifications')
+data.setCell(13, 3, 250);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'HomePage_Website_Logo_Verification')
+data.setCell(14, 2, 'com.testing.HomePage_Contents_Verifications')
+data.setCell(14, 3, 69);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'HomePage_contact_section_Verification')
+data.setCell(15, 2, 'com.testing.HomePage_Contents_Verifications')
+data.setCell(15, 3, 68);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'HomePage_Title_Verification')
+data.setCell(16, 2, 'com.testing.HomePage_Contents_Verifications')
+data.setCell(16, 3, 61);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'HomePage_Searchbox_Verification')
+data.setCell(17, 2, 'com.testing.HomePage_Contents_Verifications')
+data.setCell(17, 3, 55);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'Searchbox_Displayed')
+data.setCell(18, 2, 'com.testing.Searchbox_Interactions_Verifications')
+data.setCell(18, 3, 50);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'HomePage_keypartner_section_Verification')
+data.setCell(19, 2, 'com.testing.HomePage_Contents_Verifications')
+data.setCell(19, 3, 50);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'HomePage_slide_image_section_Verification')
+data.setCell(20, 2, 'com.testing.HomePage_Contents_Verifications')
+data.setCell(20, 3, 49);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'HomePage_Sections_Verification')
+data.setCell(21, 2, 'com.testing.HomePage_Contents_Verifications')
+data.setCell(21, 3, 45);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'HomePage_footer_section_Verification')
+data.setCell(22, 2, 'com.testing.HomePage_Contents_Verifications')
+data.setCell(22, 3, 42);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'HomePage_icons_section_Verification')
+data.setCell(23, 2, 'com.testing.HomePage_Contents_Verifications')
+data.setCell(23, 3, 41);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'HomePage_about_company_section_Verification')
+data.setCell(24, 2, 'com.testing.HomePage_Contents_Verifications')
+data.setCell(24, 3, 37);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'HomePage_info_section_Verification')
+data.setCell(25, 2, 'com.testing.HomePage_Contents_Verifications')
+data.setCell(25, 3, 36);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'HomePage_cookie_section_Verification')
+data.setCell(26, 2, 'com.testing.HomePage_Contents_Verifications')
+data.setCell(26, 3, 36);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'HomePage_Url_Verification')
+data.setCell(27, 2, 'com.testing.HomePage_Contents_Verifications')
+data.setCell(27, 3, 16);
+window.suiteTableData['West_Florida_AHEC_Test_Suite']= { tableData: data, tableDiv: 'times-div-West_Florida_AHEC_Test_Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-West_Florida_AHEC_Test_Suite">
+              </div> <!-- times-div-West_Florida_AHEC_Test_Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-West_Florida_AHEC_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for West Florida AHEC Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-West_Florida_AHEC_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-West_Florida_AHEC_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.testing.Contact_Us_Page_Verifications</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup(chrome)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">Contact_Us_Page</span>
+                <span class="method-start">7737 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">13866 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.testing.HomePage_Contents_Verifications</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup(chrome)</span>
+                <span class="method-start">14112 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">HomePage_Title_Verification</span>
+                <span class="method-start">19472 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">HomePage_Url_Verification</span>
+                <span class="method-start">19631 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">HomePage_Website_Logo_Verification</span>
+                <span class="method-start">19652 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">HomePage_Searchbox_Verification</span>
+                <span class="method-start">19730 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">HomePage_Sections_Verification</span>
+                <span class="method-start">19789 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">HomePage_slide_image_section_Verification</span>
+                <span class="method-start">19838 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">HomePage_icons_section_Verification</span>
+                <span class="method-start">19890 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">HomePage_about_company_section_Verification</span>
+                <span class="method-start">19935 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">HomePage_info_section_Verification</span>
+                <span class="method-start">19976 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">HomePage_keypartner_section_Verification</span>
+                <span class="method-start">20015 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">HomePage_contact_section_Verification</span>
+                <span class="method-start">20068 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">HomePage_footer_section_Verification</span>
+                <span class="method-start">20139 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">HomePage_cookie_section_Verification</span>
+                <span class="method-start">20184 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">20222 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.testing.Register_and_Login_Verifications</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup(chrome)</span>
+                <span class="method-start">20445 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">Register_acc_section</span>
+                <span class="method-start">24671 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Login_acc_section</span>
+                <span class="method-start">38381 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Reset_password_section</span>
+                <span class="method-start">50801 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">Login_and_Reset_section</span>
+                <span class="method-start">61242 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">73001 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.testing.Searchbox_Interactions_Verifications</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup(chrome)</span>
+                <span class="method-start">73282 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">Searchbox_Displayed</span>
+                <span class="method-start">77624 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Searchbox_input_text_Verification</span>
+                <span class="method-start">77674 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Searchbox_button_Verification</span>
+                <span class="method-start">77924 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">81113 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.testing.Sections_Interactions_Verifications</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup(chrome)</span>
+                <span class="method-start">81340 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">About_section</span>
+                <span class="method-start">85742 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">Programs_section</span>
+                <span class="method-start">94315 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Services_section</span>
+                <span class="method-start">99438 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">CPR_section</span>
+                <span class="method-start">102293 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Contact_section</span>
+                <span class="method-start">109511 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">News_section</span>
+                <span class="method-start">111014 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Myacc_section</span>
+                <span class="method-start">112853 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">116367 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

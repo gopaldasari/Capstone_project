@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="demoreport">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.testing.Register_and_Login_Verifications"/>
+      <class name="com.testing.Contact_Us_Page_Verifications"/>
+      <class name="com.testing.Sections_Interactions_Verifications"/>
+      <class name="com.testing.Searchbox_Interactions_Verifications"/>
+      <class name="com.testing.HomePage_Contents_Verifications"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- demoreport -->

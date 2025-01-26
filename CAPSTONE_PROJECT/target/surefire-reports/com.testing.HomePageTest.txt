@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.testing.HomePageTest
+-------------------------------------------------------------------------------
+Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 15.254 s - in com.testing.HomePageTest

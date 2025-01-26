@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [West Florida AHEC Test Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="ChromeTest(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.testing.Register_and_Login_Verifications">
+        <methods>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="Login_and_Reset_section"/>
+        </methods>
+      </class> <!-- com.testing.Register_and_Login_Verifications -->
+      <class name="com.testing.Sections_Interactions_Verifications">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="Programs_section"/>
+        </methods>
+      </class> <!-- com.testing.Sections_Interactions_Verifications -->
+    </classes>
+  </test> <!-- ChromeTest(failed) -->
+</suite> <!-- Failed suite [West Florida AHEC Test Suite] -->

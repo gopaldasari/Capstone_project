@@ -1,0 +1,958 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 3 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Surefire_suite" class="navigator-link">
+              <span class="suite-name border-failed">Surefire suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Surefire_suite" class="navigator-link ">
+                    <span>[unset file name]</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Surefire_suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Surefire_suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Surefire_suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Surefire_suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Surefire_suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Surefire_suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">28 methods, 3 failed,   25 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Surefire_suite" class="hide-methods failed suite-Surefire_suite"> (hide)</a> <!-- hide-methods failed suite-Surefire_suite -->
+                      <a href="#" panel-name="suite-Surefire_suite" class="show-methods failed suite-Surefire_suite"> (show)</a> <!-- show-methods failed suite-Surefire_suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Surefire_suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.testing.Register_and_Login_Verifications" class="method navigator-link" hash-for-method="Login_and_Reset_section">Login_and_Reset_section</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.testing.Sections_Interactions_Verifications" class="method navigator-link" hash-for-method="Programs_section">Programs_section</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.testing.Register_and_Login_Verifications" class="method navigator-link" hash-for-method="Register_acc_section">Register_acc_section</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Surefire_suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Surefire_suite" class="hide-methods passed suite-Surefire_suite"> (hide)</a> <!-- hide-methods passed suite-Surefire_suite -->
+                      <a href="#" panel-name="suite-Surefire_suite" class="show-methods passed suite-Surefire_suite"> (show)</a> <!-- show-methods passed suite-Surefire_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Surefire_suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.testing.Sections_Interactions_Verifications" class="method navigator-link" hash-for-method="About_section">About_section</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.testing.Sections_Interactions_Verifications" class="method navigator-link" hash-for-method="CPR_section">CPR_section</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.testing.Contact_Us_Page_Verifications" class="method navigator-link" hash-for-method="Contact_Us_Page">Contact_Us_Page</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.testing.Sections_Interactions_Verifications" class="method navigator-link" hash-for-method="Contact_section">Contact_section</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.testing.HomePage_Contents_Verifications" class="method navigator-link" hash-for-method="HomePage_Searchbox_Verification">HomePage_Searchbox_Verification</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.testing.HomePage_Contents_Verifications" class="method navigator-link" hash-for-method="HomePage_Sections_Verification">HomePage_Sections_Verification</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.testing.HomePage_Contents_Verifications" class="method navigator-link" hash-for-method="HomePage_Title_Verification">HomePage_Title_Verification</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.testing.HomePage_Contents_Verifications" class="method navigator-link" hash-for-method="HomePage_Url_Verification">HomePage_Url_Verification</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.testing.HomePage_Contents_Verifications" class="method navigator-link" hash-for-method="HomePage_Website_Logo_Verification">HomePage_Website_Logo_Verification</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.testing.HomePage_Contents_Verifications" class="method navigator-link" hash-for-method="HomePage_about_company_section_Verification">HomePage_about_company_section_Verification</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.testing.HomePage_Contents_Verifications" class="method navigator-link" hash-for-method="HomePage_contact_section_Verification">HomePage_contact_section_Verification</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.testing.HomePage_Contents_Verifications" class="method navigator-link" hash-for-method="HomePage_cookie_section_Verification">HomePage_cookie_section_Verification</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.testing.HomePage_Contents_Verifications" class="method navigator-link" hash-for-method="HomePage_footer_section_Verification">HomePage_footer_section_Verification</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.testing.HomePage_Contents_Verifications" class="method navigator-link" hash-for-method="HomePage_icons_section_Verification">HomePage_icons_section_Verification</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.testing.HomePage_Contents_Verifications" class="method navigator-link" hash-for-method="HomePage_info_section_Verification">HomePage_info_section_Verification</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.testing.HomePage_Contents_Verifications" class="method navigator-link" hash-for-method="HomePage_keypartner_section_Verification">HomePage_keypartner_section_Verification</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.testing.HomePage_Contents_Verifications" class="method navigator-link" hash-for-method="HomePage_slide_image_section_Verification">HomePage_slide_image_section_Verification</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.testing.Register_and_Login_Verifications" class="method navigator-link" hash-for-method="Login_acc_section">Login_acc_section</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.testing.Sections_Interactions_Verifications" class="method navigator-link" hash-for-method="Myacc_section">Myacc_section</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.testing.Sections_Interactions_Verifications" class="method navigator-link" hash-for-method="News_section">News_section</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.testing.Register_and_Login_Verifications" class="method navigator-link" hash-for-method="Reset_password_section">Reset_password_section</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.testing.Searchbox_Interactions_Verifications" class="method navigator-link" hash-for-method="Searchbox_Displayed">Searchbox_Displayed</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.testing.Searchbox_Interactions_Verifications" class="method navigator-link" hash-for-method="Searchbox_button_Verification">Searchbox_button_Verification</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.testing.Searchbox_Interactions_Verifications" class="method navigator-link" hash-for-method="Searchbox_input_text_Verification">Searchbox_input_text_Verification</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.testing.Sections_Interactions_Verifications" class="method navigator-link" hash-for-method="Services_section">Services_section</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Surefire_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Surefire_suite" class="panel Surefire_suite">
+          <div class="suite-Surefire_suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.testing.Sections_Interactions_Verifications</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Programs_section">
+                  </a> <!-- Programs_section -->
+                  <span class="method-name">Programs_section</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: [[ChromeDriver: chrome on windows (ab636ffd8b052b64b57a0f386bc7df7a)] -&gt; xpath: //*[@id=&apos;menu-item-264&apos;]/ul/li/a] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.28.0&apos;, revision: &apos;ac342546e9&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;23.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 132.0.6834.84, chrome: {chromedriverVersion: 132.0.6834.110 (df453a35f09..., userDataDir: C:\Users\HP\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:4976}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:4976/devtool..., se:cdpVersion: 132.0.6834.84, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ab636ffd8b052b64b57a0f386bc7df7a
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at com.testing.Sections_Interactions_Verifications.Programs_section(Sections_Interactions_Verifications.java:70)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+... Removed 30 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-failed -->
+          <div class="suite-Surefire_suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.testing.Register_and_Login_Verifications</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Login_and_Reset_section">
+                  </a> <!-- Login_and_Reset_section -->
+                  <span class="method-name">Login_and_Reset_section</span>
+                  <div class="stack-trace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;button type=&quot;submit&quot; class=&quot;woocommerce-Button button&quot; name=&quot;save_account_details&quot; value=&quot;...&quot;&gt;Save changes&lt;/button&gt; is not clickable at point (1254, 632). Other element would receive the click: &lt;a aria-label=&quot;dismiss cookie message&quot; role=&quot;button&quot; tabindex=&quot;0&quot; class=&quot;cc-btn cc-dismiss&quot;&gt;...&lt;/a&gt;
+  (Session info: chrome=132.0.6834.84)
+Build info: version: &apos;4.28.0&apos;, revision: &apos;ac342546e9&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;23.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [59dfb7088576de75a6dda852bf05693b, clickElement {id=f.F92D7C86C65F55CF1F7E7DFD749B955E.d.FB070899DFB64B116BE65439B8202C3F.e.583}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 132.0.6834.84, chrome: {chromedriverVersion: 132.0.6834.110 (df453a35f09..., userDataDir: C:\Users\HP\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:4875}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:4875/devtool..., se:cdpVersion: 132.0.6834.84, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (59dfb7088576de75a6dda852bf05693b)] -&gt; xpath: //*[@id=&quot;post-381&quot;]/div/div/div[2]/form/p[5]/button]
+Session ID: 59dfb7088576de75a6dda852bf05693b
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at com.testing.Register_and_Login_Verifications.Login_and_Reset_section(Register_and_Login_Verifications.java:127)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+... Removed 33 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Register_acc_section">
+                  </a> <!-- Register_acc_section -->
+                  <span class="method-name">Register_acc_section</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.xpath: //*[@id=&quot;post-381&quot;]/div/div/div[1]/div[1]/span[1] (tried for 10 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at com.testing.Register_and_Login_Verifications.Register_acc_section(Register_and_Login_Verifications.java:47)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&quot;post-381&quot;]/div/div/div[1]/div[1]/span[1]&quot;}
+  (Session info: chrome=132.0.6834.84)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.28.0&apos;, revision: &apos;ac342546e9&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;23.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [59dfb7088576de75a6dda852bf05693b, findElement {using=xpath, value=//*[@id=&quot;post-381&quot;]/div/div/div[1]/div[1]/span[1]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 132.0.6834.84, chrome: {chromedriverVersion: 132.0.6834.110 (df453a35f09..., userDataDir: C:\Users\HP\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:4875}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:4875/devtool..., se:cdpVersion: 132.0.6834.84, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 59dfb7088576de75a6dda852bf05693b
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:171)
+	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:168)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
+	... 32 more
+... Removed 33 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-failed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.testing.Contact_Us_Page_Verifications</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Contact_Us_Page">
+                  </a> <!-- Contact_Us_Page -->
+                  <span class="method-name">Contact_Us_Page</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.testing.Sections_Interactions_Verifications</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="About_section">
+                  </a> <!-- About_section -->
+                  <span class="method-name">About_section</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="CPR_section">
+                  </a> <!-- CPR_section -->
+                  <span class="method-name">CPR_section</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Contact_section">
+                  </a> <!-- Contact_section -->
+                  <span class="method-name">Contact_section</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Myacc_section">
+                  </a> <!-- Myacc_section -->
+                  <span class="method-name">Myacc_section</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="News_section">
+                  </a> <!-- News_section -->
+                  <span class="method-name">News_section</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Services_section">
+                  </a> <!-- Services_section -->
+                  <span class="method-name">Services_section</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.testing.HomePage_Contents_Verifications</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="HomePage_Searchbox_Verification">
+                  </a> <!-- HomePage_Searchbox_Verification -->
+                  <span class="method-name">HomePage_Searchbox_Verification</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="HomePage_Sections_Verification">
+                  </a> <!-- HomePage_Sections_Verification -->
+                  <span class="method-name">HomePage_Sections_Verification</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="HomePage_Title_Verification">
+                  </a> <!-- HomePage_Title_Verification -->
+                  <span class="method-name">HomePage_Title_Verification</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="HomePage_Url_Verification">
+                  </a> <!-- HomePage_Url_Verification -->
+                  <span class="method-name">HomePage_Url_Verification</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="HomePage_Website_Logo_Verification">
+                  </a> <!-- HomePage_Website_Logo_Verification -->
+                  <span class="method-name">HomePage_Website_Logo_Verification</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="HomePage_about_company_section_Verification">
+                  </a> <!-- HomePage_about_company_section_Verification -->
+                  <span class="method-name">HomePage_about_company_section_Verification</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="HomePage_contact_section_Verification">
+                  </a> <!-- HomePage_contact_section_Verification -->
+                  <span class="method-name">HomePage_contact_section_Verification</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="HomePage_cookie_section_Verification">
+                  </a> <!-- HomePage_cookie_section_Verification -->
+                  <span class="method-name">HomePage_cookie_section_Verification</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="HomePage_footer_section_Verification">
+                  </a> <!-- HomePage_footer_section_Verification -->
+                  <span class="method-name">HomePage_footer_section_Verification</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="HomePage_icons_section_Verification">
+                  </a> <!-- HomePage_icons_section_Verification -->
+                  <span class="method-name">HomePage_icons_section_Verification</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="HomePage_info_section_Verification">
+                  </a> <!-- HomePage_info_section_Verification -->
+                  <span class="method-name">HomePage_info_section_Verification</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="HomePage_keypartner_section_Verification">
+                  </a> <!-- HomePage_keypartner_section_Verification -->
+                  <span class="method-name">HomePage_keypartner_section_Verification</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="HomePage_slide_image_section_Verification">
+                  </a> <!-- HomePage_slide_image_section_Verification -->
+                  <span class="method-name">HomePage_slide_image_section_Verification</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.testing.Searchbox_Interactions_Verifications</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Searchbox_Displayed">
+                  </a> <!-- Searchbox_Displayed -->
+                  <span class="method-name">Searchbox_Displayed</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Searchbox_button_Verification">
+                  </a> <!-- Searchbox_button_Verification -->
+                  <span class="method-name">Searchbox_button_Verification</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Searchbox_input_text_Verification">
+                  </a> <!-- Searchbox_input_text_Verification -->
+                  <span class="method-name">Searchbox_input_text_Verification</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.testing.Register_and_Login_Verifications</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Login_acc_section">
+                  </a> <!-- Login_acc_section -->
+                  <span class="method-name">Login_acc_section</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Reset_password_section">
+                  </a> <!-- Reset_password_section -->
+                  <span class="method-name">Reset_password_section</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+        </div> <!-- panel Surefire_suite -->
+        <div panel-name="test-xml-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Surefire suite&quot; verbose=&quot;0&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Surefire test&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.testing.Contact_Us_Page_Verifications&quot;/&gt;
+      &lt;class name=&quot;com.testing.HomePage_Contents_Verifications&quot;/&gt;
+      &lt;class name=&quot;com.testing.Register_and_Login_Verifications&quot;/&gt;
+      &lt;class name=&quot;com.testing.Searchbox_Interactions_Verifications&quot;/&gt;
+      &lt;class name=&quot;com.testing.Sections_Interactions_Verifications&quot;/&gt;
+      &lt;class name=&quot;utilities.ExtentReportManager&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Surefire test --&gt;
+&lt;/suite&gt; &lt;!-- Surefire suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Surefire test (6 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Surefire_suite');
+function tableData_Surefire_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(28);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'Register_acc_section')
+data.setCell(0, 2, 'com.testing.Register_and_Login_Verifications')
+data.setCell(0, 3, 17541);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'Login_acc_section')
+data.setCell(1, 2, 'com.testing.Register_and_Login_Verifications')
+data.setCell(1, 3, 12818);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'Programs_section')
+data.setCell(2, 2, 'com.testing.Sections_Interactions_Verifications')
+data.setCell(2, 3, 12279);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'Login_and_Reset_section')
+data.setCell(3, 2, 'com.testing.Register_and_Login_Verifications')
+data.setCell(3, 3, 12055);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'Reset_password_section')
+data.setCell(4, 2, 'com.testing.Register_and_Login_Verifications')
+data.setCell(4, 3, 11630);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'About_section')
+data.setCell(5, 2, 'com.testing.Sections_Interactions_Verifications')
+data.setCell(5, 3, 9341);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'CPR_section')
+data.setCell(6, 2, 'com.testing.Sections_Interactions_Verifications')
+data.setCell(6, 3, 8729);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'Contact_Us_Page')
+data.setCell(7, 2, 'com.testing.Contact_Us_Page_Verifications')
+data.setCell(7, 3, 6372);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'Services_section')
+data.setCell(8, 2, 'com.testing.Sections_Interactions_Verifications')
+data.setCell(8, 3, 3382);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'Myacc_section')
+data.setCell(9, 2, 'com.testing.Sections_Interactions_Verifications')
+data.setCell(9, 3, 3315);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'Searchbox_button_Verification')
+data.setCell(10, 2, 'com.testing.Searchbox_Interactions_Verifications')
+data.setCell(10, 3, 1746);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'News_section')
+data.setCell(11, 2, 'com.testing.Sections_Interactions_Verifications')
+data.setCell(11, 3, 1664);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'Contact_section')
+data.setCell(12, 2, 'com.testing.Sections_Interactions_Verifications')
+data.setCell(12, 3, 1660);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'Searchbox_input_text_Verification')
+data.setCell(13, 2, 'com.testing.Searchbox_Interactions_Verifications')
+data.setCell(13, 3, 292);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'HomePage_Title_Verification')
+data.setCell(14, 2, 'com.testing.HomePage_Contents_Verifications')
+data.setCell(14, 3, 238);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'Searchbox_Displayed')
+data.setCell(15, 2, 'com.testing.Searchbox_Interactions_Verifications')
+data.setCell(15, 3, 92);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'HomePage_Website_Logo_Verification')
+data.setCell(16, 2, 'com.testing.HomePage_Contents_Verifications')
+data.setCell(16, 3, 69);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'HomePage_Searchbox_Verification')
+data.setCell(17, 2, 'com.testing.HomePage_Contents_Verifications')
+data.setCell(17, 3, 50);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'HomePage_Sections_Verification')
+data.setCell(18, 2, 'com.testing.HomePage_Contents_Verifications')
+data.setCell(18, 3, 46);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'HomePage_slide_image_section_Verification')
+data.setCell(19, 2, 'com.testing.HomePage_Contents_Verifications')
+data.setCell(19, 3, 45);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'HomePage_icons_section_Verification')
+data.setCell(20, 2, 'com.testing.HomePage_Contents_Verifications')
+data.setCell(20, 3, 43);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'HomePage_cookie_section_Verification')
+data.setCell(21, 2, 'com.testing.HomePage_Contents_Verifications')
+data.setCell(21, 3, 41);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'HomePage_about_company_section_Verification')
+data.setCell(22, 2, 'com.testing.HomePage_Contents_Verifications')
+data.setCell(22, 3, 41);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'HomePage_footer_section_Verification')
+data.setCell(23, 2, 'com.testing.HomePage_Contents_Verifications')
+data.setCell(23, 3, 40);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'HomePage_info_section_Verification')
+data.setCell(24, 2, 'com.testing.HomePage_Contents_Verifications')
+data.setCell(24, 3, 40);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'HomePage_contact_section_Verification')
+data.setCell(25, 2, 'com.testing.HomePage_Contents_Verifications')
+data.setCell(25, 3, 40);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'HomePage_keypartner_section_Verification')
+data.setCell(26, 2, 'com.testing.HomePage_Contents_Verifications')
+data.setCell(26, 3, 35);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'HomePage_Url_Verification')
+data.setCell(27, 2, 'com.testing.HomePage_Contents_Verifications')
+data.setCell(27, 3, 18);
+window.suiteTableData['Surefire_suite']= { tableData: data, tableDiv: 'times-div-Surefire_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-Surefire_suite">
+              </div> <!-- times-div-Surefire_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.testing.Contact_Us_Page_Verifications</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">Contact_Us_Page</span>
+                <span class="method-start">7883 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">14590 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.testing.HomePage_Contents_Verifications</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">15565 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">HomePage_Title_Verification</span>
+                <span class="method-start">29544 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">HomePage_Url_Verification</span>
+                <span class="method-start">29785 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">HomePage_Website_Logo_Verification</span>
+                <span class="method-start">29805 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">HomePage_Searchbox_Verification</span>
+                <span class="method-start">29878 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">HomePage_Sections_Verification</span>
+                <span class="method-start">29930 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">HomePage_slide_image_section_Verification</span>
+                <span class="method-start">29978 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">HomePage_icons_section_Verification</span>
+                <span class="method-start">30025 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">HomePage_about_company_section_Verification</span>
+                <span class="method-start">30073 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">HomePage_info_section_Verification</span>
+                <span class="method-start">30116 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">HomePage_keypartner_section_Verification</span>
+                <span class="method-start">30159 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">HomePage_contact_section_Verification</span>
+                <span class="method-start">30196 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">HomePage_footer_section_Verification</span>
+                <span class="method-start">30241 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">HomePage_cookie_section_Verification</span>
+                <span class="method-start">30284 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">30328 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.testing.Register_and_Login_Verifications</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">30550 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">Register_acc_section</span>
+                <span class="method-start">36216 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Login_acc_section</span>
+                <span class="method-start">53878 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Reset_password_section</span>
+                <span class="method-start">66717 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">Login_and_Reset_section</span>
+                <span class="method-start">78349 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">90408 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.testing.Searchbox_Interactions_Verifications</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup(chrome)</span>
+                <span class="method-start">90724 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">Searchbox_Displayed</span>
+                <span class="method-start">96466 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Searchbox_input_text_Verification</span>
+                <span class="method-start">96560 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Searchbox_button_Verification</span>
+                <span class="method-start">96857 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">98605 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.testing.Sections_Interactions_Verifications</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">98952 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">About_section</span>
+                <span class="method-start">104336 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">Programs_section</span>
+                <span class="method-start">113680 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Services_section</span>
+                <span class="method-start">125962 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">CPR_section</span>
+                <span class="method-start">129347 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Contact_section</span>
+                <span class="method-start">138079 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">News_section</span>
+                <span class="method-start">139741 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Myacc_section</span>
+                <span class="method-start">141407 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">144723 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="28" passed="25" failed="3" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-01-24T15:51:45 IST" name="Surefire suite" finished-at="2025-01-24T15:54:10 IST" duration-ms="145219">
+    <groups>
+    </groups>
+    <test started-at="2025-01-24T15:51:45 IST" name="Surefire test" finished-at="2025-01-24T15:54:10 IST" duration-ms="145219">
+      <class name="com.testing.Contact_Us_Page_Verifications">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.testing.Contact_Us_Page_Verifications@2d710f1a]" started-at="2025-01-24T15:51:45 IST" name="setUp" finished-at="2025-01-24T15:51:52 IST" duration-ms="7788" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Contact_Us_Page()[pri:1, instance:com.testing.Contact_Us_Page_Verifications@2d710f1a]" started-at="2025-01-24T15:51:53 IST" name="Contact_Us_Page" finished-at="2025-01-24T15:51:59 IST" duration-ms="6372" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Contact_Us_Page -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testing.Contact_Us_Page_Verifications@2d710f1a]" started-at="2025-01-24T15:51:59 IST" name="tearDown" finished-at="2025-01-24T15:52:00 IST" duration-ms="971" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.testing.Contact_Us_Page_Verifications -->
+      <class name="com.testing.Register_and_Login_Verifications">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.testing.Register_and_Login_Verifications@72e5a8e]" started-at="2025-01-24T15:52:15 IST" name="setUp" finished-at="2025-01-24T15:52:21 IST" duration-ms="5665" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Register_acc_section()[pri:1, instance:com.testing.Register_and_Login_Verifications@72e5a8e]" started-at="2025-01-24T15:52:21 IST" name="Register_acc_section" finished-at="2025-01-24T15:52:38 IST" duration-ms="17541" status="FAIL">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for presence of element located by: By.xpath: //*[@id="post-381"]/div/div/div[1]/div[1]/span[1] (tried for 10 second(s) with 500 milliseconds interval)]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.xpath: //*[@id="post-381"]/div/div/div[1]/div[1]/span[1] (tried for 10 second(s) with 500 milliseconds interval)
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+at com.testing.Register_and_Login_Verifications.Register_acc_section(Register_and_Login_Verifications.java:47)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:151)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:192)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:93)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:155)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="post-381"]/div/div/div[1]/div[1]/span[1]"}
+  (Session info: chrome=132.0.6834.84)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.28.0', revision: 'ac342546e9'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [59dfb7088576de75a6dda852bf05693b, findElement {using=xpath, value=//*[@id="post-381"]/div/div/div[1]/div[1]/span[1]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 132.0.6834.84, chrome: {chromedriverVersion: 132.0.6834.110 (df453a35f09..., userDataDir: C:\Users\HP\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:4875}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:4875/devtool..., se:cdpVersion: 132.0.6834.84, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 59dfb7088576de75a6dda852bf05693b
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:171)
+at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:168)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
+... 32 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Register_acc_section -->
+        <test-method signature="Login_acc_section()[pri:2, instance:com.testing.Register_and_Login_Verifications@72e5a8e]" started-at="2025-01-24T15:52:39 IST" name="Login_acc_section" finished-at="2025-01-24T15:52:51 IST" duration-ms="12818" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login_acc_section -->
+        <test-method signature="Reset_password_section()[pri:3, instance:com.testing.Register_and_Login_Verifications@72e5a8e]" started-at="2025-01-24T15:52:51 IST" name="Reset_password_section" finished-at="2025-01-24T15:53:03 IST" duration-ms="11630" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Reset_password_section -->
+        <test-method signature="Login_and_Reset_section()[pri:4, instance:com.testing.Register_and_Login_Verifications@72e5a8e]" started-at="2025-01-24T15:53:03 IST" name="Login_and_Reset_section" finished-at="2025-01-24T15:53:15 IST" duration-ms="12055" status="FAIL">
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[element click intercepted: Element <button type="submit" class="woocommerce-Button button" name="save_account_details" value="...">Save changes</button> is not clickable at point (1254, 632). Other element would receive the click: <a aria-label="dismiss cookie message" role="button" tabindex="0" class="cc-btn cc-dismiss">...</a>
+  (Session info: chrome=132.0.6834.84)
+Build info: version: '4.28.0', revision: 'ac342546e9'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [59dfb7088576de75a6dda852bf05693b, clickElement {id=f.F92D7C86C65F55CF1F7E7DFD749B955E.d.FB070899DFB64B116BE65439B8202C3F.e.583}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 132.0.6834.84, chrome: {chromedriverVersion: 132.0.6834.110 (df453a35f09..., userDataDir: C:\Users\HP\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:4875}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:4875/devtool..., se:cdpVersion: 132.0.6834.84, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (59dfb7088576de75a6dda852bf05693b)] -> xpath: //*[@id="post-381"]/div/div/div[2]/form/p[5]/button]
+Session ID: 59dfb7088576de75a6dda852bf05693b]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <button type="submit" class="woocommerce-Button button" name="save_account_details" value="...">Save changes</button> is not clickable at point (1254, 632). Other element would receive the click: <a aria-label="dismiss cookie message" role="button" tabindex="0" class="cc-btn cc-dismiss">...</a>
+  (Session info: chrome=132.0.6834.84)
+Build info: version: '4.28.0', revision: 'ac342546e9'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [59dfb7088576de75a6dda852bf05693b, clickElement {id=f.F92D7C86C65F55CF1F7E7DFD749B955E.d.FB070899DFB64B116BE65439B8202C3F.e.583}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 132.0.6834.84, chrome: {chromedriverVersion: 132.0.6834.110 (df453a35f09..., userDataDir: C:\Users\HP\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:4875}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:4875/devtool..., se:cdpVersion: 132.0.6834.84, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (59dfb7088576de75a6dda852bf05693b)] -> xpath: //*[@id="post-381"]/div/div/div[2]/form/p[5]/button]
+Session ID: 59dfb7088576de75a6dda852bf05693b
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+at com.testing.Register_and_Login_Verifications.Login_and_Reset_section(Register_and_Login_Verifications.java:127)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:151)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:192)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:93)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:155)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login_and_Reset_section -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testing.Register_and_Login_Verifications@72e5a8e]" started-at="2025-01-24T15:53:15 IST" name="tearDown" finished-at="2025-01-24T15:53:15 IST" duration-ms="316" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.testing.Register_and_Login_Verifications -->
+      <class name="com.testing.Sections_Interactions_Verifications">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.testing.Sections_Interactions_Verifications@53aac487]" started-at="2025-01-24T15:53:24 IST" name="setUp" finished-at="2025-01-24T15:53:29 IST" duration-ms="5383" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="About_section()[pri:1, instance:com.testing.Sections_Interactions_Verifications@53aac487]" started-at="2025-01-24T15:53:29 IST" name="About_section" finished-at="2025-01-24T15:53:38 IST" duration-ms="9341" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- About_section -->
+        <test-method signature="Programs_section()[pri:2, instance:com.testing.Sections_Interactions_Verifications@53aac487]" started-at="2025-01-24T15:53:38 IST" name="Programs_section" finished-at="2025-01-24T15:53:51 IST" duration-ms="12279" status="FAIL">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for element to be clickable: [[ChromeDriver: chrome on windows (ab636ffd8b052b64b57a0f386bc7df7a)] -> xpath: //*[@id='menu-item-264']/ul/li/a] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.28.0', revision: 'ac342546e9'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 132.0.6834.84, chrome: {chromedriverVersion: 132.0.6834.110 (df453a35f09..., userDataDir: C:\Users\HP\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:4976}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:4976/devtool..., se:cdpVersion: 132.0.6834.84, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ab636ffd8b052b64b57a0f386bc7df7a]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: [[ChromeDriver: chrome on windows (ab636ffd8b052b64b57a0f386bc7df7a)] -> xpath: //*[@id='menu-item-264']/ul/li/a] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.28.0', revision: 'ac342546e9'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 132.0.6834.84, chrome: {chromedriverVersion: 132.0.6834.110 (df453a35f09..., userDataDir: C:\Users\HP\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:4976}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:4976/devtool..., se:cdpVersion: 132.0.6834.84, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ab636ffd8b052b64b57a0f386bc7df7a
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+at com.testing.Sections_Interactions_Verifications.Programs_section(Sections_Interactions_Verifications.java:70)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:151)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:192)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:93)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:155)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Programs_section -->
+        <test-method signature="Services_section()[pri:3, instance:com.testing.Sections_Interactions_Verifications@53aac487]" started-at="2025-01-24T15:53:51 IST" name="Services_section" finished-at="2025-01-24T15:53:54 IST" duration-ms="3382" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Services_section -->
+        <test-method signature="CPR_section()[pri:4, instance:com.testing.Sections_Interactions_Verifications@53aac487]" started-at="2025-01-24T15:53:54 IST" name="CPR_section" finished-at="2025-01-24T15:54:03 IST" duration-ms="8729" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CPR_section -->
+        <test-method signature="Contact_section()[pri:5, instance:com.testing.Sections_Interactions_Verifications@53aac487]" started-at="2025-01-24T15:54:03 IST" name="Contact_section" finished-at="2025-01-24T15:54:04 IST" duration-ms="1660" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Contact_section -->
+        <test-method signature="News_section()[pri:6, instance:com.testing.Sections_Interactions_Verifications@53aac487]" started-at="2025-01-24T15:54:04 IST" name="News_section" finished-at="2025-01-24T15:54:06 IST" duration-ms="1664" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- News_section -->
+        <test-method signature="Myacc_section()[pri:7, instance:com.testing.Sections_Interactions_Verifications@53aac487]" started-at="2025-01-24T15:54:06 IST" name="Myacc_section" finished-at="2025-01-24T15:54:09 IST" duration-ms="3315" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Myacc_section -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testing.Sections_Interactions_Verifications@53aac487]" started-at="2025-01-24T15:54:09 IST" name="tearDown" finished-at="2025-01-24T15:54:10 IST" duration-ms="413" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.testing.Sections_Interactions_Verifications -->
+      <class name="com.testing.Searchbox_Interactions_Verifications">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.testing.Searchbox_Interactions_Verifications@54e1c68b]" started-at="2025-01-24T15:53:15 IST" name="setup" finished-at="2025-01-24T15:53:21 IST" duration-ms="5740" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Searchbox_Displayed()[pri:1, instance:com.testing.Searchbox_Interactions_Verifications@54e1c68b]" started-at="2025-01-24T15:53:21 IST" name="Searchbox_Displayed" finished-at="2025-01-24T15:53:21 IST" duration-ms="92" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Searchbox_Displayed -->
+        <test-method signature="Searchbox_input_text_Verification()[pri:2, instance:com.testing.Searchbox_Interactions_Verifications@54e1c68b]" started-at="2025-01-24T15:53:21 IST" name="Searchbox_input_text_Verification" finished-at="2025-01-24T15:53:22 IST" duration-ms="292" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Searchbox_input_text_Verification -->
+        <test-method signature="Searchbox_button_Verification()[pri:3, instance:com.testing.Searchbox_Interactions_Verifications@54e1c68b]" started-at="2025-01-24T15:53:22 IST" name="Searchbox_button_Verification" finished-at="2025-01-24T15:53:23 IST" duration-ms="1746" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Searchbox_button_Verification -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testing.Searchbox_Interactions_Verifications@54e1c68b]" started-at="2025-01-24T15:53:23 IST" name="tearDown" finished-at="2025-01-24T15:53:24 IST" duration-ms="346" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.testing.Searchbox_Interactions_Verifications -->
+      <class name="com.testing.HomePage_Contents_Verifications">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.testing.HomePage_Contents_Verifications@7d4f9aae]" started-at="2025-01-24T15:52:00 IST" name="setUp" finished-at="2025-01-24T15:52:14 IST" duration-ms="13977" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="HomePage_Title_Verification()[pri:1, instance:com.testing.HomePage_Contents_Verifications@7d4f9aae]" started-at="2025-01-24T15:52:14 IST" name="HomePage_Title_Verification" finished-at="2025-01-24T15:52:14 IST" duration-ms="238" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HomePage_Title_Verification -->
+        <test-method signature="HomePage_Url_Verification()[pri:2, instance:com.testing.HomePage_Contents_Verifications@7d4f9aae]" started-at="2025-01-24T15:52:14 IST" name="HomePage_Url_Verification" finished-at="2025-01-24T15:52:15 IST" duration-ms="18" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HomePage_Url_Verification -->
+        <test-method signature="HomePage_Website_Logo_Verification()[pri:3, instance:com.testing.HomePage_Contents_Verifications@7d4f9aae]" started-at="2025-01-24T15:52:15 IST" name="HomePage_Website_Logo_Verification" finished-at="2025-01-24T15:52:15 IST" duration-ms="69" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HomePage_Website_Logo_Verification -->
+        <test-method signature="HomePage_Searchbox_Verification()[pri:4, instance:com.testing.HomePage_Contents_Verifications@7d4f9aae]" started-at="2025-01-24T15:52:15 IST" name="HomePage_Searchbox_Verification" finished-at="2025-01-24T15:52:15 IST" duration-ms="50" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HomePage_Searchbox_Verification -->
+        <test-method signature="HomePage_Sections_Verification()[pri:5, instance:com.testing.HomePage_Contents_Verifications@7d4f9aae]" started-at="2025-01-24T15:52:15 IST" name="HomePage_Sections_Verification" finished-at="2025-01-24T15:52:15 IST" duration-ms="46" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HomePage_Sections_Verification -->
+        <test-method signature="HomePage_slide_image_section_Verification()[pri:6, instance:com.testing.HomePage_Contents_Verifications@7d4f9aae]" started-at="2025-01-24T15:52:15 IST" name="HomePage_slide_image_section_Verification" finished-at="2025-01-24T15:52:15 IST" duration-ms="45" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HomePage_slide_image_section_Verification -->
+        <test-method signature="HomePage_icons_section_Verification()[pri:7, instance:com.testing.HomePage_Contents_Verifications@7d4f9aae]" started-at="2025-01-24T15:52:15 IST" name="HomePage_icons_section_Verification" finished-at="2025-01-24T15:52:15 IST" duration-ms="43" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HomePage_icons_section_Verification -->
+        <test-method signature="HomePage_about_company_section_Verification()[pri:8, instance:com.testing.HomePage_Contents_Verifications@7d4f9aae]" started-at="2025-01-24T15:52:15 IST" name="HomePage_about_company_section_Verification" finished-at="2025-01-24T15:52:15 IST" duration-ms="41" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HomePage_about_company_section_Verification -->
+        <test-method signature="HomePage_info_section_Verification()[pri:9, instance:com.testing.HomePage_Contents_Verifications@7d4f9aae]" started-at="2025-01-24T15:52:15 IST" name="HomePage_info_section_Verification" finished-at="2025-01-24T15:52:15 IST" duration-ms="40" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HomePage_info_section_Verification -->
+        <test-method signature="HomePage_keypartner_section_Verification()[pri:10, instance:com.testing.HomePage_Contents_Verifications@7d4f9aae]" started-at="2025-01-24T15:52:15 IST" name="HomePage_keypartner_section_Verification" finished-at="2025-01-24T15:52:15 IST" duration-ms="35" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HomePage_keypartner_section_Verification -->
+        <test-method signature="HomePage_contact_section_Verification()[pri:11, instance:com.testing.HomePage_Contents_Verifications@7d4f9aae]" started-at="2025-01-24T15:52:15 IST" name="HomePage_contact_section_Verification" finished-at="2025-01-24T15:52:15 IST" duration-ms="40" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HomePage_contact_section_Verification -->
+        <test-method signature="HomePage_footer_section_Verification()[pri:12, instance:com.testing.HomePage_Contents_Verifications@7d4f9aae]" started-at="2025-01-24T15:52:15 IST" name="HomePage_footer_section_Verification" finished-at="2025-01-24T15:52:15 IST" duration-ms="40" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HomePage_footer_section_Verification -->
+        <test-method signature="HomePage_cookie_section_Verification()[pri:13, instance:com.testing.HomePage_Contents_Verifications@7d4f9aae]" started-at="2025-01-24T15:52:15 IST" name="HomePage_cookie_section_Verification" finished-at="2025-01-24T15:52:15 IST" duration-ms="41" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HomePage_cookie_section_Verification -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testing.HomePage_Contents_Verifications@7d4f9aae]" started-at="2025-01-24T15:52:15 IST" name="tearDown" finished-at="2025-01-24T15:52:15 IST" duration-ms="221" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.testing.HomePage_Contents_Verifications -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
